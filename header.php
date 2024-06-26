@@ -68,8 +68,8 @@
 				
 				<div id="navwrap2">
 					<a href="javascript:;" class="toggalnav">
-						<img class="menuopen" src="<?php echo get_template_directory_uri().'/images/menu-icon.svg';?>" alt="menu-icon">
-						<img class="menuclose" src="<?php echo get_template_directory_uri().'/images/menu-icon-close.svg';?>" alt="menu-icon">
+						<img class="menuopen" src="<?php echo esc_url(get_template_directory_uri() . '/images/menu-icon.svg'); ?>" alt="menu-icon">
+						<img class="menuclose" src="<?php echo esc_url(get_template_directory_uri() . '/images/menu-icon-close.svg'); ?>" alt="menu-icon">
 					</a>
 					<nav>
 						<?php wp_nav_menu(array('theme_location' => 'top', 'container' => 0, 'menu_id' => 'menuUl', 'items_wrap' => '<ul id="%1$s" class="%2$s"><li class="tnskip" >&nbsp;</li>%3$s<li class="tnskip">&nbsp;</li><li class="tnskip filler"></li></ul>')); ?>

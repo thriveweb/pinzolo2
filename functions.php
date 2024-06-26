@@ -581,13 +581,3 @@ function pinzolo_pbd_alp_init() {
 	}
 }
 add_action('template_redirect', 'pinzolo_pbd_alp_init');
-
-
-add_filter('upload_mimes', 'aroma_coffee_mime_types');
-function aroma_coffee_mime_types($mimes) {
-    $mimes['svg'] = 'image/svg+xml';
-    $mimes['svgz'] = 'image/svg+xml';
-    $mimes['doc'] = 'application/msword';
-    return $mimes;
-}
-

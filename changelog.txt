@@ -12,10 +12,9 @@ Dates in (Day/Month/Year)
 
 ----
 
-To Do
-
-* Add social icons in footer
-* Translations
+(26/06/2024) -  Improvements - Version 1.2.11
+[*] Design change
+[!] General updates
 
 ----
 
@@ -30,7 +29,7 @@ To Do
 [*] Updated the AJAX function in the customizer settings
 [*] Updated the styling for the header mega menu navigation
 [*] Reviewed the theme with PHP 8 version
-​[*] Fixed other issues 
+[*] Fixed other issues 
 
 ----
 
